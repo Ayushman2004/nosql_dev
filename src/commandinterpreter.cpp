@@ -11,6 +11,7 @@ std::vector<std::string> CommandInterpreter::split_words(const std::string& inpu
     return words;
 }
 
+// ----------------------------------------->   these functions are'nt yet deployed and linked well
 bool CommandInterpreter::isNumber(const std::string& s) {
     std::stringstream ss(s);
     double d;
@@ -54,7 +55,7 @@ InputType CommandInterpreter::input_type(const std::string& input) {
     }
 }
 
-
+//---------------------------------------------<
 
 void CommandInterpreter::run() {
     
